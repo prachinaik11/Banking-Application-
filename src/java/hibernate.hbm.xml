@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="pkg1.CustomersPOJO" table="BANKCUSTOMERSDATA">
+      
+      
+    
+      <id name="id" column="id"></id>
+      
+      <property name="name" column="name"></property>
+      
+      <property name="email" column="email"></property>
+
+      <property name="username" column="username"></property>
+
+
+      <property name="dob" column="dob"></property>
+
+
+      <property name="password" column="passw"></property>
+
+      <property name="balance" column="balance"></property>
+
+  
+  </class>
+</hibernate-mapping>
